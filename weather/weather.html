@@ -1,0 +1,60 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script language="javascript" type="text/javascript" src="../libraries/p5.js"></script>
+  <!-- uncomment lines below to include extra p5 libraries -->
+  <!--<script language="javascript" src="libraries/p5.dom.js"></script>-->
+  <!--<script language="javascript" src="libraries/p5.sound.js"></script>-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+     <script language="javascript" src="../libraries/p5.serialport.js"></script>
+  <script language="javascript" type="text/javascript" src="sketch.js"></script>
+  <!-- this line removes any default padding and style. you might only need one of these values set. -->
+  <style> body {padding: 0; margin: 0;} </style>
+</head>
+
+<body>
+
+    <div class="wrapper" id="first">
+        <button onclick="city('Toronto')" id="Toronto">
+            <div class="textWrapper">
+                <p class="text">Toronto</p>
+                <p class="subtext">---</p>
+            </div>
+        </button>
+        <button onclick="city('London')" id="London">
+            <div class="textWrapper">
+                <p class="text">London</p>
+                <p class="subtext">---</p>
+            </div>
+        </button>
+        <button onclick="city('Bangkok')" id="Bangkok">
+            <div class="textWrapper">
+                <p class="text">Bangkok</p>
+                <p class="subtext">---</p>
+            </div>
+        </button>
+    </div>
+    <div class="wrapper">
+        <button onclick="city('Cairo')" id="Cairo">
+            <div class="textWrapper">
+                <p class="text">Cairo</p>
+                <p class="subtext">---</p>
+            </div>
+        </button>
+        <button onclick="city('Moscow')" id="Moscow">
+            <div class="textWrapper">
+                <p class="text">Moscow</p>
+                <p class="subtext">---</p>
+            </div>
+        </button>
+        <button onclick="city('Lima')" id="Lima">
+            <div class="textWrapper">
+                <p class="text">Lima</p>
+                <p class="subtext">---</p>
+            </div>
+        </button>
+    </div>
+    
+    
+</body>
+</html>
